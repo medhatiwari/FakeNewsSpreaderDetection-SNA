@@ -1,21 +1,22 @@
 # FakeNewsSpreaderDetection-SNA
 
 ## Group-9
-Anupam Raj (IIT2020034)   
-Arjun Yadav (IIT2020120)  
-Kaustubh Kale (IIT2020129)  
-Satyam Gupta (IIT2020143)  
-Medha Tiwari (IEC2020063)  
+- Anupam Raj (IIT2020034)   
+- Arjun Yadav (IIT2020120)  
+- Kaustubh Kale (IIT2020129)  
+- Satyam Gupta (IIT2020143)  
+- Medha Tiwari (IEC2020063)  
 
+***
 
-** The task of detecting fake news spreaders is very crucial in today’s world. With the advancement
+**The task of detecting fake news spreaders is very crucial in today’s world. With the advancement
 of AI it has become even more crucial to differentiate between what is fake and what is real. It
 would be a really interesting task to identify whether an AI is impersonating a human and
 spreading fake news. Here we have only applied classical machine learning methods for detection
 of fake news spreaders on textual data using n-grams as features extracted from the data.
 Here we are trying to determine if the author of a particular twitter feed can be a fake news
-spreader or not. 
-**
+spreader or not. **
+
 ***
 ## Reading Data
 
@@ -44,10 +45,10 @@ Overall, this script appears to be cleaning and processing English language twee
 ## Modelling
 Testing four different learning methods with 5-fold cross-validation and grid-search for hyper-parameters
 
-### Logistic Regression
-### Random forest
-### SVM
-### XGBoost
+- Logistic Regression
+- Random forest
+- SVM
+- XGBoost
 
 ### Logistic Regression
 Python code that trains and tests logistic regression models using two different text vectorization methods (TfidfVectorizer) on cleaned tweet data. The code first imports the necessary packages, including pandas, sklearn, pickle, and time. It then reads in the cleaned tweet data from two separate files (clean_en_data_v1.tsv and clean_en_data_v2.tsv) as pandas dataframes.
